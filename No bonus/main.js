@@ -16,9 +16,11 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.*/
 
 let grid = document.getElementById(`grid`)
 
-for (let i = 1; i <= 64; i++) {
+for (let i = 1; i <= 100; i++) {
     let box = document.createElement(`div`)
+    document.getElementById("grid").innerHTML += `${i}`;
     box.classList.add(`box`)
     grid.appendChild(box)
     console.log(grid)
+    
 }
