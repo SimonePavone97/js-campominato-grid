@@ -1,16 +1,28 @@
-:root{
-    --backgroud-color : #7FFFD4;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
 }
 
-header{
+:root {
+    --backgroud-color: #7FFFD4;
+}
+
+header {
     height: 10vh;
 }
 
-main{
+main {
     background-color: var(--backgroud-color);
     height: 80vh;
 }
 
-footer{
+footer {
     height: 10vh;
+}
+
+.box {
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    border: 1px solid red;
 }
