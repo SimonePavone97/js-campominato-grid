@@ -1,0 +1,16 @@
+:root{
+    --backgroud-color : #7FFFD4;
+}
+
+header{
+    height: 10vh;
+}
+
+main{
+    background-color: var(--backgroud-color);
+    height: 80vh;
+}
+
+footer{
+    height: 10vh;
+}
